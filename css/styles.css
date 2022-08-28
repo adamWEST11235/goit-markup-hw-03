@@ -24,7 +24,7 @@ body {
 	padding: 0 15px;
 	width: 1200px;
 }
-.section{
+.section {
 	padding-top: 94px;
 	padding-bottom: 94px;
 }
@@ -67,7 +67,9 @@ body {
 	letter-spacing: 0.02em;
 	color: var(--secoundary-text-color);
 	display: block;
-	padding: 0 23px;
+}
+.header__nav--list li:not(:last-child){
+	padding-right: 46px;
 }
 .header__nav--link:hover {
 	color: var(--color-hover);
@@ -79,6 +81,7 @@ body {
 	list-style: none;
 	display: flex;
 }
+
 .header__contact--mail,
 .header__contact--phone {
 	text-decoration: none;
@@ -88,7 +91,9 @@ body {
 	letter-spacing: 0.02em;
 	color: var(--third-text-color);
 	display: block;
-	padding: 0px 25px;
+}
+.header__contact--list li:not(:last-child){
+	padding-right: 50px;
 }
 .header__contact--mail:hover,
 .header__contact--phone:hover {
@@ -152,6 +157,7 @@ body {
 	list-style: none;
 	display: flex;
 	height: 100%;
+	
 }
 .section__loremipsum--list > li:not(:last-child) {
 	padding-right: 30px;
@@ -171,16 +177,15 @@ body {
 	color: var(--third-text-color);
 }
 .section__job {
-	display:flex;
+	display: flex;
 	padding-top: 0px;
 	height: 100%;
-	justify-content:center;
+	justify-content: center;
 }
 .section__job--list {
 	list-style: none;
 	display: flex;
 	justify-content: space-between;
-
 }
 
 .section__job--heading {
@@ -194,13 +199,13 @@ body {
 }
 .section__team {
 	background-color: #f5f4fa;
-	display:flex;
+	display: flex;
 	justify-content: center;
 }
-.section__team--list{
+.section__team--list {
 	list-style: none;
 	display: flex;
-	justify-content:space-between;
+	justify-content: space-between;
 }
 .section__team--heading {
 	font-weight: 700;
@@ -217,8 +222,7 @@ body {
 	box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
 		0px 2px 1px rgba(0, 0, 0, 0.2);
 	border-radius: 0px 0px 4px 4px;
-	justify-content:center;
-	
+	justify-content: center;
 }
 .section__team--figure_description {
 	font-size: 16px;
@@ -226,15 +230,15 @@ body {
 	text-align: center;
 	letter-spacing: 0.03em;
 }
-.section__team--figure_description  h4 {
+.section__team--figure_description h4 {
 	font-weight: 500;
 	color: var(--secoundary-text-color);
 	padding-top: 30px;
-	padding-bottom:10px;
+	padding-bottom: 10px;
 }
-.section__team--figure_description   p {
+.section__team--figure_description p {
 	color: var(--third-text-color);
-	padding-bottom:30px;
+	padding-bottom: 30px;
 }
 .footer--box {
 	background-color: var(--secondary-brand-color);
@@ -251,7 +255,7 @@ body {
 	color: #ffffff;
 	padding-bottom: 20px;
 }
-.footer--heading  span {
+.footer--heading span {
 	color: #2196f3;
 }
 .footer--address {
@@ -261,10 +265,10 @@ body {
 	color: #ffffff;
 	padding-bottom: 9px;
 }
-.footer--list{
+.footer--list {
 	list-style: none;
 }
-.footer--list li:not(:last-child){
+.footer--list li:not(:last-child) {
 	padding-bottom: 9px;
 }
 .footer__contact--mail,
@@ -279,17 +283,15 @@ body {
 .footer__contact--phone:hover {
 	color: var(--color-hover);
 }
-.portfolio__section{
-	display:flex;
+.portfolio__section {
+	display: flex;
 	justify-content: center;
 }
-.portfolio__section__button--list{
+.portfolio__section__button--list {
 	display: flex;
 	list-style: none;
 	justify-content: center;
 	padding-bottom: 50px;
-	
-
 }
 .portfolio__section--button {
 	font-weight: 500;
@@ -302,31 +304,27 @@ body {
 	border-width: 0px;
 	cursor: pointer;
 	font-family: "Roboto", sans-serif;
-	padding:6px 20px;
-	margin:8px;
-
+	padding: 6px 20px;
+	margin: 8px;
 }
 .portfolio__section--button:hover {
 	background: var(--color-hover);
 	color: var(--text-color);
 }
-.portfolio__picture--list{
+.portfolio__picture--list {
 	list-style: none;
-	display:flex;
-	flex-wrap:wrap;
-	gap:26px;
+	display: flex;
+	flex-wrap: wrap;
+	gap: 26px;
 	justify-content: center;
-
 }
 .portfolio__box--figure {
 	background: #ffffff;
 	border: 1px solid #eeeeee;
-	
-
 }
 /* .portfolio__box--figure_description {
 } */
-.portfolio__box--figure_description  h4 {
+.portfolio__box--figure_description h4 {
 	font-weight: 700;
 	font-size: 18px;
 	line-height: 2;
@@ -334,7 +332,7 @@ body {
 	color: var(--secoundary-text-color);
 	padding: 20px 24px 2px;
 }
-.portfolio__box--figure_description  p {
+.portfolio__box--figure_description p {
 	font-size: 16px;
 	line-height: 1.88;
 	letter-spacing: 0.03em;
