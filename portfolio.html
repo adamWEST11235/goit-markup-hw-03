@@ -6,6 +6,11 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
 		<link rel="preconnect" href="https://fonts.googleapis.com" />
 		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+
+		<link
+			rel="stylesheet"
+			href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.0.0/modern-normalize.min.css"
+		/>
 		<link
 			href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap"
 			rel="stylesheet"
@@ -15,11 +20,12 @@
 	</head>
 	<body>
 		<header class="header_box">
+			<div class="conteiner header__conteiner--flex">
 			<a href="index.html" class="header__logo"><span>Web</span>Studio</a>
 			<nav class="header__nav">
-				<ul>
+				<ul class="header__nav--list">
 					<li>
-						<a href="index.html" class="header__nav--link">Agencja</a>
+						<a href="index.html" class="header__nav--link ">Agencja</a>
 					</li>
 					<li>
 						<a href="portfolio.html" class="header__nav--link active__page">Portfolio</a>
@@ -28,7 +34,7 @@
 				</ul>
 			</nav>
 
-			<ul>
+			<ul class="header__contact--list">
 				<li>
 					<a href="mailto:info@devstudio.com" class="header__contact--mail">info@devstudio.com</a>
 				</li>
@@ -36,6 +42,7 @@
 					<a href="tel:+48111111111" class="header__contact--phone">+48 111 111 111</a>
 				</li>
 			</ul>
+		</div>
 		</header>
 		<main>
 			<section>
