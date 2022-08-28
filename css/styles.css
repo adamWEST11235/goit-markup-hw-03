@@ -68,7 +68,7 @@ body {
 	color: var(--secoundary-text-color);
 	display: block;
 }
-.header__nav--list li:not(:last-child){
+.header__nav--list li:not(:last-child) {
 	padding-right: 46px;
 }
 .header__nav--link:hover {
@@ -92,7 +92,7 @@ body {
 	color: var(--third-text-color);
 	display: block;
 }
-.header__contact--list li:not(:last-child){
+.header__contact--list li:not(:last-child) {
 	padding-right: 50px;
 }
 .header__contact--mail:hover,
@@ -157,7 +157,6 @@ body {
 	list-style: none;
 	display: flex;
 	height: 100%;
-	
 }
 .section__loremipsum--list > li:not(:last-child) {
 	padding-right: 30px;
