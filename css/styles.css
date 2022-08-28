@@ -279,6 +279,18 @@ body {
 .footer__contact--phone:hover {
 	color: var(--color-hover);
 }
+.portfolio__section{
+	display:flex;
+	justify-content: center;
+}
+.portfolio__section__button--list{
+	display: flex;
+	list-style: none;
+	justify-content: center;
+	padding-bottom: 50px;
+	
+
+}
 .portfolio__section--button {
 	font-weight: 500;
 	font-size: 16px;
@@ -290,14 +302,27 @@ body {
 	border-width: 0px;
 	cursor: pointer;
 	font-family: "Roboto", sans-serif;
+	padding:6px 20px;
+	margin:8px;
+
 }
 .portfolio__section--button:hover {
 	background: var(--color-hover);
 	color: var(--text-color);
 }
+.portfolio__picture--list{
+	list-style: none;
+	display:flex;
+	flex-wrap:wrap;
+	gap:26px;
+	justify-content: center;
+
+}
 .portfolio__box--figure {
 	background: #ffffff;
 	border: 1px solid #eeeeee;
+	
+
 }
 /* .portfolio__box--figure_description {
 } */
