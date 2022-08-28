@@ -326,16 +326,18 @@ body {
 }
 /* .portfolio__box--figure_description {
 } */
-.portfolio__box--figure_description > h4 {
+.portfolio__box--figure_description  h4 {
 	font-weight: 700;
 	font-size: 18px;
 	line-height: 2;
 	letter-spacing: 0.06em;
 	color: var(--secoundary-text-color);
+	padding: 20px 24px 2px;
 }
-.portfolio__box--figure_description > p {
+.portfolio__box--figure_description  p {
 	font-size: 16px;
 	line-height: 1.88;
 	letter-spacing: 0.03em;
 	color: var(--third-text-color);
+	padding: 2px 24px 20px;
 }
