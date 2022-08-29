@@ -33,6 +33,7 @@ background-color: #fff;
 	display: flex;
 	justify-content: center;
 	height: 80px;
+	border-bottom: 1px solid #ECECEC;
 }
 .header__conteiner--flex {
 	display: flex;
