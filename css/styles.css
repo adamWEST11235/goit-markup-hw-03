@@ -37,7 +37,7 @@ background-color: #fff;
 }
 .header__conteiner--flex {
 	display: flex;
-	justify-content: flex-start;
+	
 	align-items: center;
 	padding: 15px;
 }
@@ -84,6 +84,7 @@ background-color: #fff;
 .header__contact--list {
 	list-style: none;
 	display: flex;
+	align-items: center;
 }
 
 .header__contact--mail,
