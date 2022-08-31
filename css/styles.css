@@ -237,6 +237,7 @@ img{
 		0px 2px 1px rgba(0, 0, 0, 0.2);
 	border-radius: 0px 0px 4px 4px;
 	justify-content: center;
+	
 }
 .section__team--figure_description {
 	font-size: 16px;
@@ -335,6 +336,7 @@ img{
 }
 .portfolio__box--figure {
 	background: #ffffff;
+	
 	/* border: 1px solid #eeeeee; */
 }
 .portfolio__box--figure_description {
