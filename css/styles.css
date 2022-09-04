@@ -91,8 +91,7 @@ img{
 	margin-left:auto;
 }
 
-.header__contact--mail,
-.header__contact--phone {
+.header__contact--mail{
 	text-decoration: none;
 	font-weight: 500;
 	font-size: 14px;
@@ -100,11 +99,35 @@ img{
 	letter-spacing: 0.02em;
 	color: var(--third-text-color);
 	display: block;
+	display:flex;
+	
+}
+.header__contact--mail svg:not(:last-child){
+	width: auto;
+	height: auto;
+	padding-right:10px;
+}
+
+.header__contact--phone {
+	text-decoration: none;
+	font-weight: 500;
+	font-size: 14px;
+	line-height: 1.15;
+	letter-spacing: 0.02em;
+	color: var(--third-text-color);
+	display: flex;
+}
+.header__contact--phone svg:not(:last-child){
+	padding-right:10px;
 }
 .header__contact--list li:not(:last-child) {
 	padding-right: 50px;
 }
-.header__contact--mail:hover,
+.header__contact--mail:hover{
+	color: var(--color-hover);
+}
+
+
 .header__contact--phone:hover {
 	color: var(--color-hover);
 }
